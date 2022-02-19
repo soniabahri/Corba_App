@@ -1,0 +1,5 @@
+module NoteInterfaceModule
+{ interface NoteInterface {
+    double getNote( in short cin , in string codeMatiere ) ;
+    oneway void shutdown();
+};};
